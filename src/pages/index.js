@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import ProfilePic from '../../public/images/profile/sebb.png'
 import AnimatedText from '@/components/AnimatedText'
+import Link from 'next/link'
+import { LinkArrow } from '@/components/Icons'
 
 
 export default function Home() {
@@ -20,12 +22,21 @@ export default function Home() {
             </div>
             <div className='w-1/2 flex flex-col items-center self-center'>
               <AnimatedText text="Turning Vision Into Reality With Code And Design." className='!text-6xl !text-left'/>
-              <p>
+              <p className='my-4 text-base font-medium'>
                 I am freelance creative developer, 3D Animator and graphics designer.
                 My goal is to combine creative thinking and design with an analytical approach to solve problems at the intersection of business and technology. 
                 Feel free to drop me a line,
                 Cheers : )            
               </p>
+              <div className='flex items-center self-start mt-2'>
+                <Link href="/Sebby-cv.pdf" target={"_blank"} download={true}
+                className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark'
+                > Resume  <LinkArrow className={"w-6 ml-1"}/>
+                </Link>
+                <Link href="mailto:sebbyapudo@gmail.com" target={"_blank"}
+                className='ml-4 text-lg fomt-medium capitalize text-dark underline'
+                >Contact</Link>
+              </div>
             </div>
           </div>
         </Layout>
