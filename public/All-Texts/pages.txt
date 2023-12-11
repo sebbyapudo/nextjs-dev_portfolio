@@ -1,9 +1,8 @@
 HOME PAGE: 
 
 - Turning Vision Into Reality With Code And Design. 
-- As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
-Explore my latest projects and articles, showcasing my expertise in React.js and web development.
-
+  - My name is Sebby I am freelance creative developer, 3D Animator and graphics designer. My goal is to combine creative thinking and design with an analytical approach to solve problems at the intersection of business and technology. 
+  Feel free to drop me a line, Cheers : )             
 --------------------------------------------------------------
 
 ABOUT PAGE:
