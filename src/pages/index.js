@@ -35,7 +35,7 @@ export default function Home() {
                 </Link>
                 <Link href="mailto:sebbyapudo@gmail.com" target={"_blank"}
                 className='ml-4 text-lg fomt-medium capitalize text-dark underline'
-                >Contact</Link>
+                ><em>Contact</em></Link>
               </div>
             </div>
           </div>
