@@ -5,6 +5,9 @@ import Image from 'next/image'
 import React, { useEffect, useRef } from 'react'
 import AboutImage from '../../public/images/profile/Seb.jpg'
 import { spring, useInView, useMotionValue, useSpring } from 'framer-motion'
+import Skills from '@/components/Skills'
+import Experience from '@/components/Experience'
+import Education from '@/components/Education'
 
 
 const AnimatedNumbers = ({value}) => {
@@ -12,7 +15,7 @@ const AnimatedNumbers = ({value}) => {
 
   const motionValue = useMotionValue(0);
   const springValue = useSpring(motionValue, {duration: 3000})
-  const isInView = useInView(ref)
+  const isInView = useInView(ref, {once:true})
 
   useEffect(() => {
     if(isInView){
@@ -86,6 +89,9 @@ const about = () => {
 
             </div>
           </div>
+          <Skills />
+          <Experience />
+          <Education />
         </Layout>
       </main>
     </>
