@@ -18,52 +18,31 @@ ABOUT PAGE:
 
 EXPERIENCE: 
 
-Software Engineer @Google
-2022-Present | Mountain View, CA
-Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization.
+Software Engineer @GFreelance
+2021-Present | Nairobi
+ Worked the creation of dynamic and engaging websites for a diverse range of clients. Additionally, worked on creating visually compelling 3D ads and graphics, breathing life into promotional campaigns for various businesses. Through meticulous attention to detail and a keen understanding of design principles, I've contributed to enhancing the visual identity and market presence of these enterprises, fostering a lasting impact in the digital realm.
 
-Intern @Facebook
-Summer 2021 | Menlo Park, CA.
-Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
-share short-form video content, including designing and implementing a new user interface and developing 
-the backend infrastructure to support the feature.
-
-Software Developer @Amazon
-2020-2021 | Seattle, WA.
-Worked on a team responsible for developing Amazon's mobile app, including implementing new features such 
-as product recommendations and user reviews, and optimizing the app's performance and reliability.
-
-Software Developer Intern @Microsoft
-Summer 2019 | Redmond, WA.
-Worked on a team responsible for developing new features for Microsoft's Windows operating system, 
-including implementing a new user interface for a system settings panel and optimizing the performance of 
-a core system component.
-
-Teaching Assistant @MIT
-Fall 2018 | Massachusetts Ave, Cambridge, MA.
-Assisted in teaching a course on computer programming, held office hours to help students with assignments, 
-and graded exams and assignments.
+ICT officer @IEBC Kenya
+2021 - 2022 | Nairobi.
+Worked on a team responsible for handling issues in IT for the independent Electoral and boundaries commission of Kenya. My role included trouble shooting equipment failure and networking. Whilst there, I gained a ton of experience in networking.
 
 
 --------------------------------------------------------------
 
 EDUCATION:
 
-Bachelor Of Science In Computer Science
-2016-2020 | Massachusetts Institute Of Technology (MIT)
+Bachelor Of Science In Software Engineering
+2021- Present | KCA University
 Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
 Intelligence.
 
-Master Of Computer Science
-2020-2022 | Stanford University
-Completed a master's project on deep learning, developing a new neural network architecture for natural 
-language understanding.
+Diploma in Python programming
+2021-2021 | European business University (EBU Luxembourg)
+Completed a diploma program in Python programming. The main area of focus was data Science; Numpy, pandas, scikit-learn, seaborn amd matplotlib
 
 Online Coursework
-2016-2020 | Coursera And EdX
-Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine 
+2020 - Present | Coursera And YouTube
+Completed coursework in advanced topics such as Web design, data Science, and Machine 
 Learning Engineering.
 
 --------------------------------------------------------------
