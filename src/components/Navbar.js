@@ -17,7 +17,7 @@ const CustomLink = ({href, title, className=""}) => {
       <span className={`
       h-[1px] inline-block w-0 bg-dark absolute left-0 -bottom-0.5
       group-hover:w-full transition-[width] ease duration-300
-      ${`router.asPath === ? 'w-full' : 'w-0' `}
+      ${`router.asPath === ? 'w-full' : 'w-0' `} dark:bg-light
       `}>
         &nbsp;
       </span>
@@ -31,7 +31,8 @@ const Navbar = () => {
 
   return (
     <header
-    className='w-full px-32 mx-auto py-8 font-medium flex items-center justify-between'
+    className='w-full px-32 mx-auto py-8 font-medium flex items-center justify-between dark:text-light
+    '
     >
       <nav>
         <CustomLink href="/" title="Home" className='mr-4'/>
@@ -79,7 +80,9 @@ const Navbar = () => {
 
         <button
         onClick={() => setMode(mode === "light" ? "dark" : "light")}
-        className='ml-3 flex items-center justify-center rounded-full p-1'
+        className={`ml-3 flex items-center justify-center rounded-full p-1
+        ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
+        `}
         >
         {
           mode === "dark" ?

@@ -43,12 +43,12 @@ const about = () => {
         <title>Sebby | About Me</title>
         <meta name='description' content='web design, web development, graphics design, 3D animator, Motion graphics'/>
       </Head>
-      <main className='w-full flex flex-col items-center justify-center'>
+      <main className='w-full flex flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-16'>
           <AnimatedText text="Passion Ignites Purpose!" className='mb-16'/>
           <div className='grid w-full grid-cols-8 gap-16'>
             <div className='col-span-3 flex flex-col items-start justify-start'> 
-              <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>About Me</h2>
+              <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>About Me</h2>
               <p className='font-medium'>
                 Hi, I am <em>Sebby</em>  but you can just call me Seb. I am a web developer, 3D Artist and UI/UX designer. I craft aesthetically pleasing, intuitive digital experiences, driven by a three-year expertise. Eager to transform clients' ideas into compelling realities, I'm here to redefine your digital presence.
               </p>
@@ -60,9 +60,9 @@ const about = () => {
               </p>
             </div>
             <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark
-            bg-light p-8
+            bg-light p-8 dark:bg-dark dark:border-light
             '>
-              <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark'/>
+              <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'/>
               <Image src={AboutImage} alt='Sebby Apudo' className='w-full h-auto rounded-2xl'/>
             </div>
             <div className='col-span-2 flex flex-col items-end justify-between'>
@@ -70,21 +70,21 @@ const about = () => {
                 <span className='inliine-block text-7xl font-bold'>
                   <AnimatedNumbers value={50}/> {'+'}
                 </span>
-                <h2 className='text-xl font-medium capitalize text-dark/75'>satisfied clients</h2>
+                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>satisfied clients</h2>
               </div>
 
               <div className='flex flex-col items-end justify-center'>
                 <span className='inliine-block text-7xl font-bold'>
                   <AnimatedNumbers value={30}/> {'+'}
                 </span>
-                <h2 className='text-xl font-medium capitalize text-dark/75'>projects completed</h2>
+                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>projects completed</h2>
               </div>
 
               <div className='flex flex-col items-end justify-center'>
                 <span className='inliine-block text-7xl font-bold'>
                   <AnimatedNumbers value={3}/> {'+'}
                 </span>
-                <h2 className='text-xl font-medium capitalize text-dark/75'>years of experience</h2>
+                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>years of experience</h2>
               </div>
 
             </div>

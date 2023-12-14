@@ -87,7 +87,7 @@ const projects = () => {
         <title>Sebby | projects page</title>
         <meta name='description' content='web design, web development, graphics design, 3D animator, Motion graphics'/>
       </Head>
-      <main className='w-full mb-16 flex flex-col items-center justify-center'>
+      <main className='w-full  flex flex-col items-center justify-center'>
         <Layout className='pt-16'>
           <AnimatedText text="Innovative Endeavors Showcase" className='mb-16' />
 
