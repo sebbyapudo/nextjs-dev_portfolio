@@ -12,7 +12,7 @@ const articles = () => {
       </Head>
       <main>
         <Layout className='pt-16'>
-          <AnimatedText text="Ideas unveiled, stories resonate. I will be writing soon enough😉" />
+          <AnimatedText text="Ideas unveiled, stories resonate. I'll be writing soon enough😉" />
         </Layout>
         
       </main>

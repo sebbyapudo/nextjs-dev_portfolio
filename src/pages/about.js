@@ -63,7 +63,12 @@ const about = () => {
             bg-light p-8 dark:bg-dark dark:border-light
             '>
               <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light'/>
-              <Image src={AboutImage} alt='Sebby Apudo' className='w-full h-auto rounded-2xl'/>
+              <Image src={AboutImage} alt='Sebby Apudo' className='w-full h-auto rounded-2xl'
+              priority 
+              sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw"
+              />
             </div>
             <div className='col-span-2 flex flex-col items-end justify-between'>
               <div className='flex flex-col items-end justify-center'>
