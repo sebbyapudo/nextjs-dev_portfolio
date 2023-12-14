@@ -16,9 +16,9 @@ const FeaturedProject = ({type, title, summary, img, link, github}) => {
 
   return(
     <article className='w-full flex items-center justify-between relative rounded-br-2xl
-    rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12
+    rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark dark:border-light 
     '>
-      <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl'/>
+      <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light rounded-br-3xl'/>
       <Link href={link} target='_blank'
       className='w-1/2 cursor-pointer overflow-hidden rounded-lg'
       >
@@ -26,16 +26,16 @@ const FeaturedProject = ({type, title, summary, img, link, github}) => {
       </Link>
 
       <div className='w-1/2 flex flex-col items-start justify-between pl-6'>
-        <span className='text-primary font-medium text-xl'>{type}</span>
+        <span className='text-primary dark:text-primaryDark font-medium text-xl'>{type}</span>
         <Link href={link} target='_blank' className='hover:underline underline-offset-2'>
-          <h2 className='my-2 w-full text-left text-3xl font-bold '>{title}</h2>
+          <h2 className='my-2 w-full text-left text-3xl font-bold dark:text-light'>{title}</h2>
         </Link>
-        <p className='my-2 font-medium text-dark'>{summary}</p>
+        <p className='my-2 font-medium text-dark dark:text-light'>{summary}</p>
 
         <div className='mt-2 flex items-center'>
           <Link href={github} target='_blank' className='w-10' > <GithubIcon /></Link>
           <Link href={link} target='_blank'
-          className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold'
+          className='ml-4 rounded-lg bg-dark dark:bg-light dark:text-dark text-light p-2 px-6 text-lg font-semibold'
           > visit project</Link>
         </div>
       </div>
@@ -47,9 +47,9 @@ const Project = ({title, type, img, link, github}) => {
 
   return (
     <article className='w-full flex flex-col items-center justify-center rounded-2xl
-    border border-solid border-dark bg-light p-6 relative
+    border border-solid border-dark bg-light p-6 relative dark:bg-dark dark:border-light
     '>
-      <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl'/>
+      <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark dark:bg-light rounded-br-3xl'/>
       <Link href={link} target='_blank'
       className='w-full cursor-pointer overflow-hidden rounded-lg'
       >
@@ -57,9 +57,9 @@ const Project = ({title, type, img, link, github}) => {
       </Link>
 
       <div className='w-full flex flex-col items-start justify-between mt-4'>
-        <span className='text-primary font-medium text-xl'>{type}</span>
+        <span className='text-primary dark:text-primaryDark font-medium text-xl'>{type}</span>
         <Link href={link} target='_blank' className='hover:underline underline-offset-2'>
-          <h2 className='my-2 w-full text-left text-3xl font-bold '>{title}</h2>
+          <h2 className='my-2 w-full text-left text-3xl font-bold dark:text-light'>{title}</h2>
         </Link>
         
 
@@ -87,7 +87,7 @@ const projects = () => {
         <title>Sebby | projects page</title>
         <meta name='description' content='web design, web development, graphics design, 3D animator, Motion graphics'/>
       </Head>
-      <main className='w-full  flex flex-col items-center justify-center'>
+      <main className='w-full  flex flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-16'>
           <AnimatedText text="Innovative Endeavors Showcase" className='mb-16' />
 
