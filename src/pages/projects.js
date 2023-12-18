@@ -11,6 +11,7 @@ import Kiongozi from '../../public/images/projects/kiongozi.jpg'
 import Logistics from '../../public/images/projects/logistics.jpg'
 import FoodStore from '../../public/images/projects/food-store.jpg'
 import Loruki from '../../public/images/projects/loruki.jpg'
+import TransitionEffect from '@/components/TransitionEffect'
 
 const FeaturedProject = ({type, title, summary, img, link, github}) => {
 
@@ -88,6 +89,7 @@ const projects = () => {
         <title>Sebby | projects page</title>
         <meta name='description' content='web design, web development, graphics design, 3D animator, Motion graphics'/>
       </Head>
+      <TransitionEffect />
       <main className='w-full  flex flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-16'>
           <AnimatedText text="Innovative Endeavors Showcase" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl' />
