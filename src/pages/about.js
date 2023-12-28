@@ -52,10 +52,10 @@ const about = () => {
             <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'> 
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>About Me</h2>
               <p className='font-medium'>
-                Hi, I am <em>Sebby</em>  but you can just call me Seb. I am a web developer, 3D Artist and UI/UX designer. I craft aesthetically pleasing, intuitive digital experiences, driven by a three-year expertise. Eager to transform clients' ideas into compelling realities, I'm here to redefine your digital presence.
+                Hi, I am <em>Sebby</em>  but you can just call me Seb. I am a web developer, 3D Artist and UI/UX designer. I craft aesthetically pleasing, intuitive digital experiences, driven by a three-year expertise. Eager to transform clients&apos; ideas into compelling realities, I am here to redefine your digital presence.
               </p>
               <p className='my-4 font-medium'>
-                I hold the belief that design surpasses mere aesthetics; it's the art of problem-solving  and crafting user experiences that are intuitive and delightful.
+                I hold the belief that design surpasses mere aesthetics; it&apos;s the art of problem-solving  and crafting user experiences that are intuitive and delightful.
               </p>
               <p className='font-medium'>
                 Be it a website, mobile app, digital graphic, or 3D model, I infuse every project with a dedication to exceptional design and user-focused mindset. I eagerly anticipate the chance to contribute my expertise and enthusiasm to your upcoming endeavor.
