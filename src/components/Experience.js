@@ -42,6 +42,12 @@ const Experience = () => {
         className='absolute left-9 top-0 w-[4px] h-full bg-dark dark:bg-light origin-top md:w-[2px] md:left-[30px] xs:left-[20px]'/>
         <ul className='w-full flex flex-col items-center justify-between ml-4 xs:ml-2'>
           <Details 
+            position={"Web developer, graphics designer, motion graphics designer"} company={"CHARLESON"}
+            companyLink={"https://www.charleson.co.ke/"}
+            time={"2024 - Present"} address={"CHARLESON® Plaza, USIU Rd, Nairobi"}
+            work={"Graphics design -  Creating stunning visuals for print and digital media, including brochures, presentations, social media graphics, and website mockups. Web design -  Assisting with website maintenance and updates, developing UI/UX elements, and contributing to website redesign projects. Motion graphics - Creating engaging animated content for presentations, social media campaigns, and internal communications. ICT support - Providing technical assistance to staff, troubleshooting computer issues, and offering guidance on software and hardware usage."}
+          />
+          <Details 
             position={"Creative developer"} company={"Freelancer"}
             companyLink={"https://github.com/sebbyapudo"}
             time={"2021-Present"} address={"Nairobi"}
