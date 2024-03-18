@@ -6,11 +6,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import Felo from 'public/images/projects/felo.png';
-import Recipe from 'public/images/projects/recipe.png';
-import Kiongozi from 'public/images/projects/kiongozi.png';
-import Logistics from 'public/images/projects/logistics.png';
-import FoodStore from 'public/images/projects/food-store.png';
-import Loruki from 'public/images/projects/loruki.png';
+import Drink from 'public/images/projects/drinksasa.png';
+import Shirini from 'public/images/projects/shirini.png';
+import Melco from 'public/images/projects/melcoinsurance.png';
+import DcLaw from 'public/images/projects/dc-lawadvocate.png';
+import Recipe from 'public/images/projects/recipe.jpg';
 import TransitionEffect from '@/components/TransitionEffect'
 
 const FeaturedProject = ({type, title, summary, img, link, github}) => {
@@ -108,55 +108,55 @@ const projects = () => {
 
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                  title="Simply Recipes"
-                  link="https://sebbyapudo.github.io/SimplyRecipes/index.html"
-                  github="https://github.com/sebbyapudo/SimplyRecipes.git"
+                  title="Melco Insurance"
+                  link="https://melcoinsurance.com"
+                  github="https://github.com/sebbyapudo/"
                   type="Featured Project"
-                  img={Recipe}
+                  img={Melco}
                 />
             </div>
 
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                    title="Skiongozi team building"
-                    link="https://sebbyapudo.github.io/SKiongozi_team-building/"
+                    title="Shirini Exp"
+                    link="https://shirini.co.ke"
                     github="https://github.com/sebbyapudo/SKiongozi_team-building.git"
                     type="Featured Project"
-                    img={Kiongozi}
+                    img={Shirini}
 
               />
             </div>
 
             <div className='col-span-12'>
               <FeaturedProject
-                  title="Nathan Kayo Logistics"
-                  summary="The detailed organization and implementation of a complex operation. NKG a web app for a Logistics company in Nairobi, has multiple compatibilities on different screen devices as it fully responsive and it's built in plain old vanilla js "
-                  link="https://sebbyapudo.github.io/NKG-Logistics/"
-                  github="https://github.com/sebbyapudo/NKG-Logistics.git"
+                  title="Drink Sasa"
+                  summary="The meticulous planning and execution of a multifaceted endeavor. Drink Sasa, an online platform for ordering beverages with Mpesa integration, boasts cross-device compatibility, being fully responsive and developed using WordPress"
+                  link="https://drinksasa.com"
+                  github="https://github.com/sebbyapudo/"
                   type="Featured Project"
-                  img={Logistics}
+                  img={Drink}
 
               />
             </div>
 
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                    title="Foodmart Ecommerce"
-                    link="https://www.figma.com/community/file/1271365468968017828/food-store-e-commerce"
-                    github="https://www.figma.com/file/gPWLVq0drcSpsuqoRTznRo/Food-Store-e-commerce?type=design&node-id=0%3A1&mode=design&t=N2k6Ss3H5nm9BsFD-1"
+                    title="Diana Chepkemoi Law Advocate"
+                    link="https://sebbyapudo.github.io/Diana-chepkemoi_Law-advocate/"
+                    github="https://github.com/sebbyapudo/Diana-chepkemoi_Law-advocate"
                     type="Featured Project"
-                    img={FoodStore}
+                    img={DcLaw}
 
                 />
             </div>
 
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                    title="Loruki CloudHosting"
-                    link="https://sebbyapudo.github.io/CloudHosting-Loruki/"
-                    github="https://github.com/sebbyapudo/CloudHosting-Loruki.git"
+                    title="Simply Recipes"
+                    link="https://sebbyapudo.github.io/SimplyRecipes/"
+                    github="https://github.com/sebbyapudo/SimplyRecipes"
                     type="Featured Project"
-                    img={Loruki}
+                    img={Recipe}
 
               />
             </div>
