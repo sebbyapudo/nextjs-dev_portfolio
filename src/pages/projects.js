@@ -8,9 +8,10 @@ import React from 'react'
 import Felo from 'public/images/projects/felo.png';
 import Drink from 'public/images/projects/drinksasa.png';
 import Shirini from 'public/images/projects/shirini.png';
-import Melco from 'public/images/projects/melcoinsurance.png';
-import DcLaw from 'public/images/projects/dc-lawadvocate.png';
+import Redefining from 'public/images/projects/redefiningafrica.png';
+import Tandacn from 'public/images/projects/tandacn.png';
 import Recipe from 'public/images/projects/recipe.jpg';
+import Premier from 'public/images/projects/premieranalytics.png';
 import TransitionEffect from '@/components/TransitionEffect'
 
 const FeaturedProject = ({type, title, summary, img, link, github}) => {
@@ -108,11 +109,11 @@ const projects = () => {
 
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                  title="Melco Insurance"
-                  link="https://melcoinsurance.com"
+                  title="PACD"
+                  link="https://redefiningafrica.org"
                   github="https://github.com/sebbyapudo/"
                   type="Featured Project"
-                  img={Melco}
+                  img={Redefining}
                 />
             </div>
 
@@ -120,7 +121,7 @@ const projects = () => {
               <Project
                     title="Shirini Exp"
                     link="https://shirini.co.ke"
-                    github="https://github.com/sebbyapudo/SKiongozi_team-building.git"
+                    github="https://github.com/sebbyapudo/"
                     type="Featured Project"
                     img={Shirini}
 
@@ -141,22 +142,22 @@ const projects = () => {
 
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                    title="Diana Chepkemoi Law Advocate"
-                    link="https://sebbyapudo.github.io/Diana-chepkemoi_Law-advocate/"
-                    github="https://github.com/sebbyapudo/Diana-chepkemoi_Law-advocate"
+                    title="Tandacn"
+                    link="https://tandacn.org"
+                    github="https://github.com/sebbyapudo/"
                     type="Featured Project"
-                    img={DcLaw}
+                    img={Tandacn}
 
                 />
             </div>
 
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                    title="Simply Recipes"
-                    link="https://sebbyapudo.github.io/SimplyRecipes/"
-                    github="https://github.com/sebbyapudo/SimplyRecipes"
+                    title="Premier Analytics"
+                    link="https://premieranalytics.co"
+                    github="https://github.com/sebbyapudo/"
                     type="Featured Project"
-                    img={Recipe}
+                    img={Premier}
 
               />
             </div>
