@@ -52,7 +52,7 @@ const about = () => {
             <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'> 
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>About Me</h2>
               <p className='font-medium'>
-                Hi, I am <em>Sebby</em>  but you can just call me Seb. I am a web developer, 3D Artist and UI/UX designer. I craft aesthetically pleasing, intuitive digital experiences, driven by a three-year expertise. Eager to transform clients&apos; ideas into compelling realities, I am here to redefine your digital presence.
+                Hi, I am <em>Sebby</em>  but you can just call me Seb. I am a web developer, 3D Artist and UI/UX designer. I craft aesthetically pleasing, intuitive digital experiences, driven by a four-year expertise. Eager to transform clients&apos; ideas into compelling realities, I am here to redefine your digital presence.
               </p>
               <p className='my-4 font-medium'>
                 I hold the belief that design surpasses mere aesthetics; it&apos;s the art of problem-solving  and crafting user experiences that are intuitive and delightful.
@@ -75,7 +75,7 @@ const about = () => {
             <div className='col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
               <div className='flex flex-col items-end justify-center xl:items-center'>
                 <span className='inliine-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                  <AnimatedNumbers value={50}/> {`+`}
+                  <AnimatedNumbers value={70}/> {`+`}
                 </span>
                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm
@@ -84,7 +84,7 @@ const about = () => {
 
               <div className='flex flex-col items-end justify-center xl:items-center'>
                 <span className='inliine-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                  <AnimatedNumbers value={30}/> {`+`}
+                  <AnimatedNumbers value={40}/> {`+`}
                 </span>
                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75
                 xl:text-center md:text-lg sm:text-base xs:text-sm
@@ -93,7 +93,7 @@ const about = () => {
 
               <div className='flex flex-col items-end justify-center xl:items-center'>
                 <span className='inliine-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                  <AnimatedNumbers value={3}/> {`+`}
+                  <AnimatedNumbers value={4}/> {`+`}
                 </span>
                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75
                 xl:text-center md:text-lg sm:text-base xs:text-sm
